@@ -1,0 +1,94 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-color: #10782F;
+}
+
+.paragrafo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    height: 550px;
+    width: 600px;
+    margin: 200px auto;
+    background-color: #F7F7F7;
+    box-shadow: 5px 5px 5px 5px #0a4e1f;
+    border-radius: 20px;
+}
+
+.titulo {
+    background: #128835;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.formulario {
+    padding: 20px;
+}
+
+.input {
+    width: 90px;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.input:focus {
+    border: 3px solid #000000;
+    outline: none;
+}
+
+.inputSelect {
+    width: 180px;
+    padding: 5px;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+}
+
+.botao {
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+    margin: 30px auto;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 60px;
+    background: #128835;
+}
+
+.botao:hover {
+    transform: scale(1.02);
+}
+
+#total {
+    text-align: center;
+    font-size: 19px;
+}
+
+#valorTotal {
+    text-decoration: underline;
+    font-size: 19px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    position: absolute;
+    bottom: 0px;
+}
